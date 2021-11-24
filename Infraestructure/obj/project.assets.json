@@ -519,20 +519,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Roberto\\.nuget\\packages\\": {}
+    "C:\\Users\\larry\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roberto\\Desktop\\Experimentos en c#\\Sistematico3\\Infraestructure\\Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\larry\\Desktop\\rob\\Sistematico3\\Infraestructure\\Infraestructure.csproj",
       "projectName": "Infraestructure",
-      "projectPath": "C:\\Users\\Roberto\\Desktop\\Experimentos en c#\\Sistematico3\\Infraestructure\\Infraestructure.csproj",
-      "packagesPath": "C:\\Users\\Roberto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roberto\\Desktop\\Experimentos en c#\\Sistematico3\\Infraestructure\\obj\\",
+      "projectPath": "C:\\Users\\larry\\Desktop\\rob\\Sistematico3\\Infraestructure\\Infraestructure.csproj",
+      "packagesPath": "C:\\Users\\larry\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\larry\\Desktop\\rob\\Sistematico3\\Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\larry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -545,8 +550,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Roberto\\Desktop\\Experimentos en c#\\Sistematico3\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Roberto\\Desktop\\Experimentos en c#\\Sistematico3\\Domain\\Domain.csproj"
+            "C:\\Users\\larry\\Desktop\\rob\\Sistematico3\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\larry\\Desktop\\rob\\Sistematico3\\Domain\\Domain.csproj"
             }
           }
         }
@@ -582,7 +587,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

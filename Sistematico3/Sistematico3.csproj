@@ -77,6 +77,12 @@
     <Compile Include="FrmCalendario.Designer.cs">
       <DependentUpon>FrmCalendario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCalendarioPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCalendarioPago.Designer.cs">
+      <DependentUpon>FrmCalendarioPago.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCuota.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCalendario.resx">
       <DependentUpon>FrmCalendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCalendarioPago.resx">
+      <DependentUpon>FrmCalendarioPago.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCuota.resx">
       <DependentUpon>FrmCuota.cs</DependentUpon>

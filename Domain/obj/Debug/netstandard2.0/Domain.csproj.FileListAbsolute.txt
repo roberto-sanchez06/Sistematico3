@@ -8,3 +8,13 @@ C:\Users\Roberto\Desktop\Experimentos en c#\Sistematico3\Domain\obj\Debug\netsta
 C:\Users\Roberto\Desktop\Experimentos en c#\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
 C:\Users\Roberto\Desktop\Experimentos en c#\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.dll
 C:\Users\Roberto\Desktop\Experimentos en c#\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.pdb
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.csproj.AssemblyReference.cache
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\larry\Desktop\rob\Sistematico3\Domain\obj\Debug\netstandard2.0\Domain.pdb

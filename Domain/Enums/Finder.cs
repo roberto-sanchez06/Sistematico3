@@ -6,8 +6,9 @@ namespace Domain.Enums
 {
     public enum Finder
     {
-        Tipo,
-        Estado,
-        MostrarTodos
+       Principal,
+       Interes,
+       Estado,
+       MostrarTodos
     }
 }
