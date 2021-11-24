@@ -43,5 +43,28 @@ namespace Infraestructure
         {
             return (calendarios.Count == 0) ? 0 : calendarios[calendarios.Count - 1].Id;
         }
+        public void Update(Calendario c)
+        {
+            if (c is null)
+            {
+                throw new ArgumentNullException(nameof(c));
+            }
+
+            int index = calendarios.FindIndex(x=>x.Id==c.Id);
+            if (index < 0)
+            {
+                throw new ArgumentException("El elemento no existe");
+            }
+            calendarios.Insert(index, c);
+        }
+        public bool Delete(Calendario c)
+        {
+            if (c is null)
+            {
+                throw new ArgumentNullException(nameof(c));
+            }
+
+            return calendarios.Remove(c);
+        }
     }
 }

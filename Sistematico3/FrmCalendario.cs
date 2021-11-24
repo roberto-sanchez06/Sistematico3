@@ -67,9 +67,11 @@ namespace Sistematico3
             {
                 case 0:
                     dataGridView1.DataSource = calendarioService.FindAll(p => p.Tipo == (Tipo)cmbTipo.SelectedIndex);
+                    //dataGridView1.DataSource = calendarioService.FindAll().Where(x => x.Tipo == (Tipo)cmbTipo.SelectedIndex).ToList();
                     break;
                 case 1:
                     dataGridView1.DataSource = calendarioService.FindAll(p => p.Estado == (Estado)cmbEstado.SelectedIndex);
+                    //dataGridView1.DataSource = calendarioService.FindAll().Where(x=> x.Estado == (Estado)cmbEstado.SelectedIndex).ToList();
                     break;
                 case 2:
                     dataGridView1.DataSource = calendarioService.FindAll();

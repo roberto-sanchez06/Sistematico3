@@ -37,9 +37,9 @@ namespace Sistematico3
                     Id = calendarioService.GetLastIdCuota() + 1,
                     Tipo = (Tipo)cmbTipo.SelectedIndex,
                     Estado = (Estado)cmbEstado.SelectedIndex,
-                    FechaPaga = dtpPaga.Value,
+                    FechaPago = dtpPaga.Value,
                     FechaVencimiento = dtpVencimiento.Value,
-                    Monto = nudMonto.Value,
+                    Monto_Prestamo = nudMonto.Value,
                     Terminos = (int)nudTerminos.Value,
                     Tasa = nudTasa.Value
                 };

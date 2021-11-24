@@ -21,6 +21,11 @@ namespace AppCore.Services
             calendarioRepository.Add(c);
         }
 
+        public bool Delete(Calendario c)
+        {
+            return calendarioRepository.Delete(c);
+        }
+
         public List<Calendario> FindAll()
         {
             return calendarioRepository.FindAll();
@@ -34,6 +39,11 @@ namespace AppCore.Services
         public int GetLastIdCuota()
         {
             return calendarioRepository.GetLastIdCuota();
+        }
+
+        public void Update(Calendario c)
+        {
+            calendarioRepository.Update(c);
         }
     }
 }

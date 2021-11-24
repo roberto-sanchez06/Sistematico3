@@ -11,5 +11,7 @@ namespace AppCore.Interfaces
         List<Calendario> FindAll();
         int GetLastIdCuota();
         List<Calendario> FindAll(Predicate<Calendario> predicate);
+        void Update(Calendario c);
+        bool Delete(Calendario c);
     }
 }

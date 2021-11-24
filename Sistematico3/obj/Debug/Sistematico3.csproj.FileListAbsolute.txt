@@ -32,3 +32,4 @@ C:\Users\Roberto\Desktop\Experimentos en c#\Sistematico3\Sistematico3\obj\Debug\
 C:\Users\Roberto\Desktop\Experimentos en c#\Sistematico3\Sistematico3\obj\Debug\Sistematico3.csproj.CoreCompileInputs.cache
 C:\Users\Roberto\Desktop\Experimentos en c#\Sistematico3\Sistematico3\obj\Debug\Sistematico3.exe
 C:\Users\Roberto\Desktop\Experimentos en c#\Sistematico3\Sistematico3\obj\Debug\Sistematico3.pdb
+C:\Users\Roberto\Desktop\Experimentos en c#\Sistematico3\Sistematico3\obj\Debug\Sistematico3.csproj.CopyComplete

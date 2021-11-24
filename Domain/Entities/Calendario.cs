@@ -11,13 +11,16 @@ namespace Domain.Entities
         public Tipo Tipo { get; set; }
         public Estado Estado { get; set; }
         public DateTime FechaVencimiento { get; set; }
-        public DateTime FechaPaga { get; set; }
-        public decimal Monto { get; set; }
+        public DateTime FechaPago { get; set; }
+        public decimal Monto_Prestamo { get; set; }
+        //calendario igual a numero de terminos
         public int Terminos { get; set; }
         public decimal Tasa { get; set; }
-        public decimal Principal { get; set; }
-        public decimal Interes { get; set; }
-        public decimal Impuestos { get; set; }
-        public decimal MontoTotal { get; set; }
+        public decimal Principal_Pagado { get; set; }
+        public decimal Principal => (Monto_Prestamo * (1 + Tasa)) / Terminos;
+        public decimal Interes => (Monto_Prestamo * Tasa / Terminos);
+        public decimal Interes_Pagado { get; set; }
+        public decimal Cuota => Principal + Tasa;
+        public decimal Cuota_Pagado { get; set; }
     }
 }
